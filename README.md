@@ -1,2 +1,0 @@
-# Backups
-Just some themes
