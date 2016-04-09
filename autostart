@@ -1,6 +1,15 @@
-# Programs that will run after Openbox has started
 
-# My lit panel
-tint2 &
+# Programs that will run when OpenBox has started
+
+# Monitors
+xrandr --output DVI-D-0 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DVI-I-1 --off --output DVI-I-0 --mode 1600x900 --pos 1920x0 --rotate normal --output HDMI-0
+
+# Wallpapers
+nitrogen --restore &
+
+# Compton
+compton
+
+
 
 
